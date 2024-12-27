@@ -5,6 +5,7 @@ lazy val root = project
   .settings(
     name := "test",
     version := "0.1.0-SNAPSHOT",
+    run / fork := true,
 
     scalaVersion := scala3Version,
 
